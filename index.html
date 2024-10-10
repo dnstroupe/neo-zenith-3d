@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neo Zenith 3D</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      #info {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-family: Arial, sans-serif;
+        z-index: 100;
+        display: block;
+      }
+      #ui {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 100;
+      }
+      button {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="info">
+      <h1>Neo Zenith</h1>
+      <p>A Futuristic Cityscape in Motion</p>
+    </div>
+    <div id="ui"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
